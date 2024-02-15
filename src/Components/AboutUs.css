@@ -1,0 +1,51 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About .content{
+    padding:1rem 10rem;
+    text-align: center;
+}
+
+.content h1{
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.content p{
+    font-size: 1rem;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    background-color: light;
+}
+
+
+
+.Objective{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: blue;
+    text-align: center;
+    
+}
+
+.Objective h1{
+    font-family: 'DM Serif Display', serif;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.Objective .contentpara{
+    padding-top: 0.3rem;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

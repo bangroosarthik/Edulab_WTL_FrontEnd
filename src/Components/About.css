@@ -1,0 +1,57 @@
+.myimg{
+    width: 200px;
+    height: 200px;
+}
+
+.textContainer{
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;    
+}
+.imageContainer{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textContainer > h1{
+    font-size:4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textContainer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sarthik{
+    text-align: center;
+}
+
+
+.chirag{
+    text-align: center;
+}
+
+.sarthik h3{
+    padding-top: 5px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: orange;
+      
+}
+
+.chirag h3{
+    padding-top: 5px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: orange;
+}
+
+.linkedinLogo{
+    border-radius: 10px;
+    width: 20px;
+}

@@ -1,0 +1,124 @@
+
+.contact {
+    display: flex;
+    margin: auto;
+    max-width: 1366px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 10rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.contact .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.contact .textContainer p{
+    font-family: 'DM Serif Display', serif;
+    margin-top: -60px;
+    font-size:2rem;
+    text-align: center;
+    
+}
+
+.contact .textContainer h2 {
+    font-size: 15px;
+}
+
+.contact .textContainer span {
+    font-weight: 400;
+}
+
+.contact .formContainer {
+    flex: 1;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px 100px;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    margin-top: 5px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.contact form button {
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact form button {
+    font-size: 12px;
+    padding: 10px 10px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+    .contact {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .contact .textContainer {
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .contact .textContainer h1 {
+        font-size: 30px;
+    }
+
+    .contact .textContainer h2 {
+        font-size: 15px;
+    }
+
+    .contact .textContainer span {
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .contact .formContainer form {
+        gap: 10px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        margin-top: 5px;
+        padding: 5px 10px;
+    }
+
+    .contact form button {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}

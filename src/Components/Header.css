@@ -1,0 +1,66 @@
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    background-color: blue;
+    padding-bottom: 0.2rem;
+    
+}
+
+.logo{
+    color: orange;
+    font-size: 2rem;
+    padding-left: 3rem;
+    font-weight: 800;
+}
+
+.logo:hover{
+    color: lightsalmon;
+}
+.mainHeader div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div nav a{
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+div nav a:hover{
+    color: lightgray;
+}
+
+a:link {
+    text-decoration: inherit;
+}
+
+
+a:visited {
+    text-decoration: inherit;  
+}
+
+.navItems a{
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.mainDiv{
+    padding-right: 2rem;
+}
+
+.content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: medium;
+}
